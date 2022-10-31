@@ -1,5 +1,5 @@
 import EquationInput from "./components/equation-input.js";
-import {default as forms} from "./components/materialize/forms.js";
+import Materialize from "./materialize-module.js";
 
 export default class View{
     constructor(){
