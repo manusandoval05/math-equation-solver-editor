@@ -7,7 +7,6 @@ export default class EquationInput{
             if(event.keyCode !== 13){
                 return 
             }
-            console.log(this.input.value);
             const equationText = `\$\$${this.input.value}\$\$`; 
 
             callback(equationText);
