@@ -1,4 +1,4 @@
-export default class Component {
+class Component {
   /**
    * Generic constructor for all components
    * @constructor

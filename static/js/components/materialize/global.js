@@ -1,6 +1,5 @@
-import {default as cash} from "./cash.js";
 // Required for Meteor package, the use of window prevents export by Meteor
-export default (function(window) {
+(function(window) {
   if (window.Package) {
     M = {};
   } else {
@@ -9,8 +8,6 @@ export default (function(window) {
 
   // Check for jQuery
   M.jQueryLoaded = !!window.jQuery;
-
-  return M;
 })(window);
 
 // AMD

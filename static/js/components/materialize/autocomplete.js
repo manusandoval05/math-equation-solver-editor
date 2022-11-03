@@ -1,5 +1,3 @@
-import Component from "./component.js";
-
 (function($) {
   'use strict';
 

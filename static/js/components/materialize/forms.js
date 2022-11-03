@@ -1,8 +1,4 @@
-import {default as M} from "./global.js";
-
-const cash = window.cash; 
-
-export default (function($) {
+(function($) {
   // Function to update labels of text fields
   M.updateTextFields = function() {
     let input_selector =
@@ -276,5 +272,4 @@ export default (function($) {
       path_input.trigger('change');
     });
   }); // End of $(document).ready
-
 })(cash);
